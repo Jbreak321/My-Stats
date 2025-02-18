@@ -1,10 +1,51 @@
 *{
-    padding:0;
     margin:0;
+    padding:0;
     box-sizing: border-box;
+    font-family: "Nunito";
+}
+body{
+background-image: url(guillermo-ferla-Oze6U2m1oYU-unsplash.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 }
 .UserInput-Container{
-    width: fit-content;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.UserInput-Container .inputs form,.UserInput-Container .title{
+    transform: translateY(30vh);
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background-color: rgb(194, 191, 191);
+    max-width:500px;
+    min-width:400px;
+    box-shadow: 1px 1px 50px black;
+}
+
+.UserInput-Container input{
+    padding: 5px 10px;
+    border: none;
     border-radius: 15px;
+
+}
+
+.UserInput-Container button{
+    border: none;
+    border-radius: 10px;
+    background-color: #333a44;
+    color: white;
+    padding: 10px;
+
+}
+button:hover{
+transition: background-color 260ms ease-in, color 200ms ease-out;
+cursor: pointer;
+background-color: white;
+color: #333a44 
 }
