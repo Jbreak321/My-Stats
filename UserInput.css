@@ -3,3 +3,8 @@
     margin:0;
     box-sizing: border-box;
 }
+.UserInput-Container{
+    width: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+}
