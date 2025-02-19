@@ -11,6 +11,13 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
+.fullContainer{
+    background-color: rgba(5, 36, 92, 0.348);
+    width: 100vw;
+    height: 100vh;
+
+}
+
 input{
     padding: 5px 10px;
     border: none;
@@ -34,13 +41,11 @@ color: #333a44
 
 .container{
     transform: translate(33.5vw ,30vh);
-    background-color: rgba(19, 7, 92, 0.341);
     display: inline-flex;
     flex-direction: column;
     gap: 20px;
     padding: 10px;
-    border: none;
-    border-radius: 50%;
+
     
 }
 
