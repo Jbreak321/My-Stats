@@ -23,7 +23,6 @@ button{
     background-color: #333a44;
     color: white;
     padding: 10px;
-
 }
 button:hover{
 transition: background-color 167ms ease-in, color 200ms ease;
