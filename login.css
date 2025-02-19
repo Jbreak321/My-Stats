@@ -34,7 +34,7 @@ color: #333a44
 
 .container{
     transform: translate(33.5vw ,30vh);
-    background-color: rgb(76, 54, 198);
+    background-color: rgba(19, 7, 92, 0.341);
     display: inline-flex;
     flex-direction: column;
     gap: 20px;
