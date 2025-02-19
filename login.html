@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="UserInput.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>hello</h1>
-</body>
+    <div class="UserInput-Container">
+        <div class="title">
+            <h1>Sign Up</h1>
+        </div>
+        <div class="inputs">
+       <form action="login.html">
+        <label for="MyUsername">Username</label>
+        <input type="text" id="MyUsername" required class="Username">
+        <label for="MyPassword">Password</label>
+        <input type="password" id="MyPassword" required class="Password">
+        <button>Submit</button>
+    </form>
+    </div>
+    <script src="UserInput.js"></script>
 </html>

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 *{
     margin:0;
     padding:0;
@@ -9,14 +10,24 @@ background-image: url(guillermo-ferla-Oze6U2m1oYU-unsplash.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 }
+.fullContainer{
+    background-color: rgba(0, 89, 255, 0.348);
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+
+}
 .UserInput-Container{
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
-.UserInput-Container .inputs form,.UserInput-Container .title{
-    transform: translateY(30vh);
+    transform: translateY(15%);
     margin: auto;
+}
+.fullContainer .UserInput-Container .inputs form,
+.fullContainer .UserInput-Container .title{
+    
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -35,7 +46,7 @@ background-size: cover;
 
 }
 
-.UserInput-Container button{
+button{
     border: none;
     border-radius: 10px;
     background-color: #333a44;
